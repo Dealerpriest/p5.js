@@ -236,8 +236,7 @@ p5.prototype.loadStrings = function () {
 
 /**
  * <p>Reads the contents of a file or URL and creates a p5.Table object with
- * its values. If a file is specified, it must be located in the sketch's
- * "data" folder. The filename parameter can also be a URL to a file found
+ * its values. If a file is specified, the path is relative to the project folder. The filename parameter can also be a URL to a file found
  * online. By default, the file is assumed to be comma-separated (in CSV
  * format). Table only looks for a header row if the 'header' option is
  * included.</p>
